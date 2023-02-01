@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------ FONT AWESOME ------------>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+    <!------------ TAB ICON SHEET ------------>
+    <link rel="icon" type="image/png" href="./assets/img/tab icon.png">
+    <!------------ CUSTOM STYLE SHEET ------------>
+    <link rel="stylesheet" href="./assets/CSS/my website.css">
+    <title>Moon Light</title>
+</head>
+<body>
+    <!--navbar section start-->
+    <header>
+        <a href="#" class="logo">Moon Light</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--navbar section end-->
+
+    <!--Background-images section start-->
+    <section class="background-js">
+        <img src="./assets/img/stars.png" id="stars">
+        <img src="./assets/img/moon.png" id="moon">
+        <img src="./assets/img/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">My Portfolio</h2>
+        <a href="#icons" id="btn">Explore</a>
+        <img src="./assets/img/mountains_front.png" id="mountains_front">
+    </section>
+    <!--Background-images section end-->
+
+    <!--Body-text section start-->
+    <section class="about" id="about">
+            <div class="text-image">
+              <img src="./assets/img/my website2.jpg">
+              <div class="about-text">
+               <h2>About <span class="Us">Me</span></h2>
+               <h4>Developer <span class="Us">& Designer</span></h4>
+               <p>I am a front-end web developer. i can provide clean code and pixel perfect design.
+               I also make the website more & more interactive with web animations.
+               A responsive designs and modern prototypes makes your website accessible to all users, 
+               regardless of their device.</p>
+                <a href="#contact"><button type="button">Let's Talk</button></a>
+              </div>
+            </div>
+    </section>
+    <!--Body-text section end-->
+    <!--service section start-->
+    <div class="service" id="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: 
+                        Firstly, it needs to work across all devices. 
+                        Secondly, it needs to be fast as possible.</p>
+
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: 
+                        Firstly, it needs to work across all devices. 
+                        Secondly, it needs to be fast as possible.</p>
+
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: 
+                        Firstly, it needs to work across all devices. 
+                        Secondly, it needs to be fast as possible.</p>
+
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--service section start-->
+
+        <!--image slider start-->
+        <div class="about2">
+        <div class="img-slider" id="work">
+            <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <a href="./button hover.html" target=_blank rel="noopener noref"><img src="./assets/img/Neon Button.png" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href="./sidebar menu.html" target=_blank rel="noopener noref"><img src="./assets/img/Side Menu JS.png" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href="./service section.html" target=_blank rel="noopener noref"><img src="./assets/img/Service section.png" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href="./sprite animation.html" target=_blank rel="noopener noref"><img src="./assets/img/Loading animation.png" alt=""></a>
+                </div>
+                <div class="slide">
+                  <a href="./liquid drop.html" target=_blank rel="noopener noref"><img src="./assets/img/Liquid Sign in.png" alt=""></a>
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        </div>
+        <!--slider script section start-->
+        <script>
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 5){
+                    counter = 1;
+                }
+            },5000);
+        </script>
+        <!--slider script section end-->
+    </div>
+    <!--image slider end-->
+
+        <!--Contact-Us section start-->
+    <footer>
+        <div class="contact" id="contact">
+        <div class="contact-form">
+            <h1>Contact <span class="Us">Us</span></h1>
+            <p>I am available for freelance work. Connect with me via <a href="https://web.whatsapp.com/" target=_blank>Whatsapp</a> or <a href="https://web.telegram.org/k/#1678495013" target=_blank>Telegram</a>.</p>
+            <form action="">
+                <label for="name"></label>
+                <input type="" placeholder="Your Name" required>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="E-mail" id="email" required>
+                <label for="subject"></label>
+                <input type="" placeholder="Write a Subject" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required>
+
+                </textarea>
+                <input type="submit" name="" value="Submit" class="button">
+        </form>
+    </div>
+    <div class="contact-img">
+        <img src="./assets/img/my website.jpg" alt="">
+    </div>
+    </div>
+    <!--Contact-Us section end-->
+
+    <!--Social media incons section start-->
+    <div class="main0">
+        <h2>Aymen <span class="Us">Amari</span></h2>
+        <p>For more HTML, CSS, And coding tutorial - 
+            please click on the link below to follow me on my social media :</p>
+    </div>
+    <div class="main" id="icons">
+        <!--Facebook icon-->
+        <div class="icon fb">
+            <i class="fa-brands fa-facebook-f"></i>
+            <a href="https://www.facebook.com/aymenamari57/" target=_blank><span>Facebook</span></a>
+        </div>
+
+        <!--Twitter icon-->
+        <div class="icon twt">
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://twitter.com/TheSamurai_Man" target=_blank><span>Twitter</span></a>
+        </div>
+
+        <!--Linkedin icon-->
+        <div class="icon lnk">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/thesamuraiman-undefined-48652a262/" target=_blank><span>Linkedin</span></a>
+        </div>
+
+        <!--GitHub icon-->
+        <div class="icon git">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/Thesamuraiman" target=_blank><span>GitHub</span></a>
+        </div>
+
+        <!--Youtube icon-->
+        <div class="icon yt">
+            <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.youtube.com/@thesamuraiman7554/featured" target=_blank><span>Youtube</span></a>
+        </div>
+    </div>
+    </footer>
+    <!--Social media incons section end-->
+
+    <!--background-animation script section start-->
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text= document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector ('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+    <!--background-animation script section end-->
+</body>
+</html>
